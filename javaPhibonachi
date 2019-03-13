@@ -1,0 +1,10 @@
+        int fibNumOne = 2;
+        int fibNumTwo = 3;
+        int fibNum = 2;
+        int sumFibNum = 10;
+        for (int i = sumFibNum; i < 100000; i = fibNumTwo) {
+            sumFibNum = fibNumOne + fibNumTwo;
+            fibNumOne = fibNumTwo;
+            fibNumTwo = sumFibNum;
+            System.out.println("Число Фибоначчи "+sumFibNum);
+        }
